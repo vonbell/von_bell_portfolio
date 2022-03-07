@@ -1,13 +1,57 @@
-/* .hovereffect {
-    width:100%;
-    height:100%;
-    float:left;
-    overflow:hidden;
-    position:relative;
-    text-align:center;
-    cursor:default;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Space+Mono&display=swap');
 
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* ================================================================================= */
+/*                          Masthead                                             */
+/* ================================================================================= */
+
+.masthead {
+    background: linear-gradient(to top, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-red-orange.png"); */
+}
+
+.masthead h1, .masthead .h1 {
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+}
+
+.masthead h2, .masthead .h2 {
+    font-family: 'Space Mono', monospace;
+
+}
+
+#masthead-content {
+    margin-top: 8rem;
+}
+
+@media (max-width: 992px) {
+    #masthead-content {
+        margin-top: -2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================================= */
+/*                          Hover Effect                                             */
+/* ================================================================================= */
 .hovereffect img {
     display:block;
     position:relative;
