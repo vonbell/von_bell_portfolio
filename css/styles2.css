@@ -4,8 +4,6 @@ body {
     font-family: 'Space Mono', monospace;
 }
 
-
-
 /* ================================================================================= */
 /*                          Navbar                                             */
 /* ================================================================================= */
@@ -31,14 +29,12 @@ body {
     border-width: 2px;
 } */
 
-
 /* ================================================================================= */
 /*                          Masthead                                             */
 /* ================================================================================= */
 
 .masthead {
     background: linear-gradient(to top, #000 0%, rgba(20, 20, 20, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
-    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-red-orange.png"); */
 }
 
 .masthead h1, .masthead .h1 {
@@ -60,7 +56,7 @@ body {
 }
 
 .intro {
-    margin: 0 19rem 0 0;
+    margin: 0 18.5rem 0 0;
 }
 
 @media (max-width: 992px) {
@@ -73,13 +69,14 @@ body {
     }
 }
 
-
 /* ================================================================================= */
 /*                          About Me                                             */
 /* ================================================================================= */
 
 #about-me-img {
     border-radius: 8%;
+    padding: 10px;
+    box-shadow: 5px 10px turquoise;
 }
 
 .skills-list {
@@ -115,11 +112,14 @@ small {
     font-size: 20px;
 }
 
+/* ================================================================================= */
+/*                          Contact                                             */
+/* ================================================================================= */
 
-
-
-
-
+.socials {
+    border: 1.5px solid;
+    border-color: rgba(64, 224, 208, 0.9);
+}
 
 /* ================================================================================= */
 /*                          Hover Effect                                             */
@@ -135,4 +135,17 @@ small {
     -ms-transform:scale(1.2);
     -webkit-transform:scale(1.2);
     transform:scale(1.2);
+}
+
+.hovereffect2 img {
+    display:block;
+    position:relative;
+    -webkit-transition:all .4s linear;
+    transition:all .4s linear;
+}
+
+.hovereffect2:hover img {
+    -ms-transform:scale(1.1);
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
 }
