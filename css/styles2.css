@@ -44,8 +44,8 @@ body {
 .masthead h1, .masthead .h1 {
     font-family: 'Raleway', sans-serif;
     color: whitesmoke;
-    font-size: 2.5rem;
-    line-height: 2.5rem;
+    font-size: 4.5rem;
+    line-height: 4.5rem;
     letter-spacing: 0.8rem;
 }
 
@@ -55,13 +55,21 @@ body {
 }
 
 #masthead-content {
-    margin-top: 8rem;
+    margin-top: 9rem;
     margin-bottom: 3rem;
+}
+
+.intro {
+    margin: 0 19rem 0 0;
 }
 
 @media (max-width: 992px) {
     #masthead-content {
         margin-top: -2rem;
+    }
+
+    .intro {
+        margin: 0;
     }
 }
 
