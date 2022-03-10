@@ -23,13 +23,16 @@ body {
 }
 
 #mainNav .navbar-toggler {
-    /* color: rgba(64, 224, 208, 0.9);
-    border: 1.5px solid rgba(64, 224, 208, 0.9); */
-    /* color: rgb(148,148,148);
-    border: 1px solid rgb(148,148,148); */
     color: rgba(0, 0, 0, 0.6);
     border: 1.3px solid rgba(0, 0, 0, 0.6);
 }
+
+@media (max-width: 992px) {
+    #mainNav .navbar-brand {
+        margin: -1rem 0;
+    }
+}
+
 /* .resume {
     border-style: solid;
     border-color: turquoise;
@@ -69,7 +72,8 @@ body {
 
 @media (max-width: 992px) {
     #masthead-content {
-        margin-top: -2rem;
+        margin-top: -6rem;
+        margin-bottom: -10rem;
     }
 
     .intro {
@@ -118,6 +122,23 @@ body {
 small {
     color: turquoise;
     font-size: 20px;
+}
+
+/* ================================================================================= */
+/*                          Projects                                             */
+/* ================================================================================= */
+
+.project-description {
+    margin: 0 4rem .7rem 4rem;
+}
+
+h6 > small {
+    font-size: 16px;
+}
+
+.project-repo {
+    font-size: 2.5rem;
+    color: turquoise;
 }
 
 /* ================================================================================= */
