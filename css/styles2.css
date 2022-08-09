@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Space+Mono&display=swap');
 
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Space Mono', monospace;
 }
@@ -58,7 +64,7 @@ body {
 
 .masthead h2, .masthead .h2 {
     font-family: 'Space Mono', monospace;
-
+    /* font-size: 0.8rem; */
 }
 
 #masthead-content {
@@ -145,6 +151,14 @@ small {
     font-size: 20px;
 }
 
+.smaller {
+    color: turquoise;
+}
+
+a.smaller {
+    text-decoration: none;
+}
+
 /* ================================================================================= */
 /*                          Projects                                             */
 /* ================================================================================= */
@@ -224,4 +238,25 @@ h6 > small {
     -ms-transform:scale(1.1);
     -webkit-transform:scale(1.1);
     transform:scale(1.1);
+}
+
+.underline-effect {
+    display: inline-block;
+    /* padding-bottom: 0.1rem; */
+    position: relative;
+}
+
+.underline-effect::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 1px;
+    background-color: turquoise;
+    transition: width 0.25s ease-out;
+}
+
+.underline-effect:hover::before {
+    width: 100%;
 }
