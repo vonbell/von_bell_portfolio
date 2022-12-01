@@ -39,19 +39,12 @@ body {
     }
 }
 
-/* .resume {
-    border-style: solid;
-    border-color: turquoise;
-    border-radius: 5px;
-    border-width: 2px;
-} */
-
 /* ================================================================================= */
 /*                          Masthead                                             */
 /* ================================================================================= */
 
 .masthead {
-    background: linear-gradient(to top, #000 0%, rgba(20, 20, 20, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to top, #000 25%, rgba(20, 20, 20, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 
 .masthead h1, .masthead .h1 {
@@ -191,6 +184,11 @@ h6 > small {
 /*                          Contact / Footer                                             */
 /* ================================================================================= */
 
+footer {
+    /* background: linear-gradient(to bottom, #000 0%, rgb(20, 20, 20) 60%, rgb(0, 0, 0) 100%); */
+    background: linear-gradient(to bottom, #000 0%, rgba(20, 20, 20, 0.9) 100%, rgba(0, 0, 0, 0.8) 75%);
+}
+
 .socials {
     border: 1.5px solid;
     border-color: rgba(64, 224, 208, 0.9);
@@ -275,12 +273,11 @@ h6 > small {
 .loader-container {
     width: 100%;
     height: 100%;
-    /* position: absolute; */
     position: fixed;
     z-index: 10000;
     top: 0;
     left: 0;
-    background: linear-gradient(to top, #000 0%, rgb(20, 20, 20) 75%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(to top, #000 0%, rgb(20, 20, 20) 100%, rgb(0, 0, 0) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -303,25 +300,15 @@ h6 > small {
 }
 
 /* @keyframes loader {
-    0% {
-      transform: rotate(0deg);
-    }
+    0% {transform: rotate(0deg);}
     
-    25% {
-      transform: rotate(180deg);
-    }
+    25% {transform: rotate(180deg);}
     
-    50% {
-      transform: rotate(180deg);
-    }
+    50% {transform: rotate(180deg);}
     
-    75% {
-      transform: rotate(360deg);
-    }
+    75% {transform: rotate(360deg);}
     
-    100% {
-      transform: rotate(360deg);
-    }
+    100% {transform: rotate(360deg);}
 } */
   
 @keyframes loader-inner {
