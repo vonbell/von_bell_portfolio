@@ -11,9 +11,8 @@ body {
 }
 
 /* ================================================================================= */
-/*                          Navbar                                             */
+/*                          Navbar                                                   */
 /* ================================================================================= */
-
 #mainNav.navbar-shrink .nav-link:hover {
     color: turquoise;
 }
@@ -40,12 +39,11 @@ body {
 }
 
 /* ================================================================================= */
-/*                          Masthead                                             */
+/*                          Masthead                                                 */
 /* ================================================================================= */
-
 .masthead {
     background: linear-gradient(to top, #000 25%, rgba(20, 20, 20, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
-    padding-top: 2rem;
+    padding-top: 0.5rem;
 }
 
 .masthead h1, .masthead .h1 {
@@ -90,9 +88,8 @@ body {
 }
 
 /* ================================================================================= */
-/*                          About Me                                             */
+/*                          About Me                                                 */
 /* ================================================================================= */
-
 #about-me-img {
     border-radius: 8%;
     padding: 10px;
@@ -108,9 +105,6 @@ body {
     margin: 0 0 10px -10px;
     font-size: small;
     position: relative;
-    /* margin: 0 40px 10px; */
-    /* padding: 0 0 0 20px; */
-    /* list-style-type: square; */
 }
 
 .list li::before {
@@ -119,8 +113,6 @@ body {
     content: "\232A";
     color: turquoise;
     display: inline-block; 
-    /* width: 5em; */
-    /* margin-left: -1em; */
 }
 
 @media (max-width: 768px) {
@@ -151,9 +143,8 @@ body {
 }
 
 /* ================================================================================= */
-/*                          small                                             */
+/*                          small                                                    */
 /* ================================================================================= */
-
 small {
     color: turquoise;
     font-size: 20px;
@@ -168,9 +159,8 @@ a.smaller {
 }
 
 /* ================================================================================= */
-/*                          Projects                                             */
+/*                          Projects                                                 */
 /* ================================================================================= */
-
 .project-description {
     margin: 0 4rem .7rem 4rem;
 }
@@ -185,12 +175,10 @@ h6 > small {
 }
 
 /* ================================================================================= */
-/*                          Contact / Footer                                             */
+/*                          Contact / Footer                                         */
 /* ================================================================================= */
-
 footer {
-    /* background: linear-gradient(to bottom, #000 0%, rgb(20, 20, 20) 60%, rgb(0, 0, 0) 100%); */
-    background: linear-gradient(to bottom, #000 0%, rgba(20, 20, 20, 0.9) 100%, rgba(0, 0, 0, 0.8) 75%);
+    background: linear-gradient(to top, #222 0%, rgba(20, 20, 20, 0.9) 50%, rgba(0, 0, 0, 0.8) 100%);
 }
 
 .socials {
@@ -208,8 +196,8 @@ footer {
 }
 
 .footer-logo {
-    margin-top: 7px;
-    margin-bottom: -3rem;
+    margin-top: -7px;
+    margin-bottom: -4rem;
 }
 
 @media (max-width: 992px) {
