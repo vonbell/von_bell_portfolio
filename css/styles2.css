@@ -289,6 +289,7 @@ footer {
     display: inline-block;
     width: 100%;
     animation: loader-inner 2s linear infinite;
+    box-shadow: .1em .1em 20px turquoise, -.1em -.1em 20px rgb(64, 147, 224);
 }
 
 /* @keyframes loader {
@@ -306,21 +307,26 @@ footer {
 @keyframes loader-inner {
     0% {
       background: turquoise;
+      transform:scale(1);
     }
     
     25% {
       background: rgb(64, 213, 224);
+      transform:scale(1.04);
     }
     
     50% {
       background: rgb(64, 171, 224);
+      transform:scale(1.05);
     }
     
     75% {
       background: rgb(64, 224, 205);
+      transform:scale(1.04);
     }
     
     100% {
       background: turquoise;
+      transform:scale(1);
     }
 }
